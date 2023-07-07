@@ -1,0 +1,15 @@
+#include <stdio.h>
+ int main(int argc, char const *argv[])
+{
+    char x = '5';
+    char *ptr = NULL;
+    if (ptr != NULL)
+    {
+        printf("The address of 'X' is: ", ptr);
+    }
+   else
+   {
+    printf("Pointer is a 'NULL' pointer and its can't be dereferenced:");
+   }
+    return 0;
+}
